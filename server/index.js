@@ -57,7 +57,30 @@ app.get("/items/:id", async (req, res) => {
   }
 });
 
-// update items
+// update an item
+app.put("/items/:id", async (req, res) => {
+  try {
+    const { id } = req.params; // the item_id to be updated
+    const { product_name, in_stock, purchase_price, minimum_sell_price, sold_at } = req.body;
+
+    // Update the item in the database
+    const updatedItem = await pool.query(
+      "UPDATE items SET product_name = $1, in_stock = $2, purchase_price = $3, minimum_sell_price = $4, sold_at = $5 WHERE item_id = $6 RETURNING *",
+      [product_name, in_stock, purchase_price, minimum_sell_price, sold_at, id]
+    );
+
+    // If no rows were affected, the item_id does not exist
+    if (updatedItem.rowCount === 0) {
+      return res.status(404).json({ error: "Item not found" });
+    }
+
+    // Return the updated item
+    res.json(updatedItem.rows[0]);
+  } catch (err) {
+    console.error(err.message);
+    res.status(500).json({ error: "Server error, could not update item" });
+  }
+});
 
 // delete items
 
