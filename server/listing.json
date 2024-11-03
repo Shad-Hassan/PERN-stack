@@ -1,0 +1,144 @@
+[
+    {
+      "product_name": "2GS Brakepad",
+      "in_stock": 2,
+      "purchase_price": 300,
+      "minimum_sell_price": 450,
+      "sold_at": 1
+    },
+    {
+      "product_name": "B97 Brakepad",
+      "in_stock": 2,
+      "purchase_price": 600,
+      "minimum_sell_price": 750,
+      "sold_at": 1
+    },
+    {
+      "product_name": "2GS Air Filter",
+      "in_stock": 2,
+      "purchase_price": 350,
+      "minimum_sell_price": 470,
+      "sold_at": 1
+    },
+    {
+      "product_name": "21C Mobil Filter",
+      "in_stock": 12,
+      "purchase_price": 110,
+      "minimum_sell_price": 160,
+      "sold_at": 1
+    },
+    {
+      "product_name": "Gixxer/GSXR Brakepad front (Indo)",
+      "in_stock": 2,
+      "purchase_price": 800,
+      "minimum_sell_price": 1000,
+      "sold_at": 1
+    },
+    {
+      "product_name": "Gixxer/GSXR Brakepad rear (Indo)",
+      "in_stock": 2,
+      "purchase_price": 1000,
+      "minimum_sell_price": 1150,
+      "sold_at": 1
+    },
+    {
+      "product_name": "Gixxer/GSXR Brakepad rear (Indian)",
+      "in_stock": 2,
+      "purchase_price": 620,
+      "minimum_sell_price": 790,
+      "sold_at": 1
+    },
+    {
+      "product_name": "Gixxer Air Filter",
+      "in_stock": 2,
+      "purchase_price": 400,
+      "minimum_sell_price": 480,
+      "sold_at": 1
+    },
+    {
+      "product_name": "Yamalube DOT 3",
+      "in_stock": 2,
+      "purchase_price": 200,
+      "minimum_sell_price": 290,
+      "sold_at": 1
+    },
+    {
+      "product_name": "KBX",
+      "in_stock": 10,
+      "purchase_price": 60,
+      "minimum_sell_price": 100,
+      "sold_at": 1
+    },
+    {
+      "product_name": "DOT 4 (K)",
+      "in_stock": 6,
+      "purchase_price": 50,
+      "minimum_sell_price": 90,
+      "sold_at": 1
+    },
+    {
+      "product_name": "Flamingo OB",
+      "in_stock": 3,
+      "purchase_price": 200,
+      "minimum_sell_price": 250,
+      "sold_at": 1
+    },
+    {
+      "product_name": "Annex Fuel OB",
+      "in_stock": 10,
+      "purchase_price": 35,
+      "minimum_sell_price": 70,
+      "sold_at": 1
+    },
+    {
+      "product_name": "Hurricane OB",
+      "in_stock": 12,
+      "purchase_price": 35,
+      "minimum_sell_price": 65,
+      "sold_at": 1
+    },
+    {
+      "product_name": "FZS Rear Brakepad (Indian)",
+      "in_stock": 2,
+      "purchase_price": 1300,
+      "minimum_sell_price": 1400,
+      "sold_at": 1
+    },
+    {
+      "product_name": "FZS Rear Brakepad (Indo)",
+      "in_stock": 2,
+      "purchase_price": 950,
+      "minimum_sell_price": 1100,
+      "sold_at": 1
+    },
+    {
+      "product_name": "FZS Rear Brakepad (Thai)",
+      "in_stock": 2,
+      "purchase_price": 1050,
+      "minimum_sell_price": 1200,
+      "sold_at": 1
+    },
+    {
+      "product_name": "FZS Rear Brakepad (Yasaki)",
+      "in_stock": 2,
+      "purchase_price": 850,
+      "minimum_sell_price": 1000,
+      "sold_at": 1
+    },
+    {
+      "product_name": "R15 non ABS Front Brakepad",
+      "in_stock": 2,
+      "purchase_price": 1050,
+      "minimum_sell_price": 1350,
+      "sold_at": null
+    },
+    {
+      "product_name": "M3 Led",
+      "in_stock": 2,
+      "purchase_price": 500,
+      "minimum_sell_price": 550,
+      "sold_at": 1
+    }
+    
+  ]
+  
