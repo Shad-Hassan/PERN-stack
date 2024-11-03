@@ -83,7 +83,29 @@ app.put("/items/:id", async (req, res) => {
 });
 
 // delete items
+// delete an item
+app.delete("/items/:id", async (req, res) => {
+  try {
+    const { id } = req.params; // the item_id to be deleted
 
+    // Delete the item from the database
+    const deletedItem = await pool.query(
+      "DELETE FROM items WHERE item_id = $1 RETURNING *",
+      [id]
+    );
+
+    // If no rows were affected, the item_id does not exist
+    if (deletedItem.rowCount === 0) {
+      return res.status(404).json({ error: "Item not found" });
+    }
+
+    // Return the deleted item
+    res.json({ message: "Item deleted successfully", deletedItem: deletedItem.rows[0] });
+  } catch (err) {
+    console.error(err.message);
+    res.status(500).json({ error: "Server error, could not delete item" });
+  }
+});
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`)
